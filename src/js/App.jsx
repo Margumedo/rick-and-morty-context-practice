@@ -2,7 +2,7 @@ import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 
 //componentes
-import Home from "./views/Home";
+import Home from "./views/Home.jsx";
 import Contact from "./views/Contact.jsx";
 import About from "./views/About.jsx";
 import NotFound from "./views/NotFound.jsx";
