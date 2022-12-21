@@ -54,7 +54,7 @@ const CharacterDetail = () => {
                             <p className="card-text">{character.species}</p>
                             <p className="card-text">{character.status}</p>
                             <p className="card-text">{character.gender}</p>
-                            <button type="button" className="btn btn-primary" onClick={() => navigate(-1)}>
+                            <button type="button" className="btn btn-primary w-100" onClick={() => navigate(-1)}>
                                 Volver
                             </button>
                         </div>
